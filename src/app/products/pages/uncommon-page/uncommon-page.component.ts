@@ -9,7 +9,7 @@ import { interval, Observable, tap } from 'rxjs';
 export class UncommonPageComponent {
 
   // i18n Select
-  public name: string = 'Fernando';
+  public name: string = 'Cristian';
   public gender: 'male'|'female' = 'male';
   public invitationMap = {
     male: 'invitarlo',
@@ -17,12 +17,12 @@ export class UncommonPageComponent {
   }
 
   changeClient():void {
-    this.name = 'Melissa';
+    this.name = 'Julissa';
     this.gender = 'female';
   }
 
   // i18nPlural
-  public clients: string[] = ['Maria','Pedro','Fernando', 'Hernando', 'Eduardo', 'Melissa', 'Natalia'];
+  public clients: string[] = ['Leicy','Jose','Cristian', 'Manuel', 'Rixx', 'Julissa', 'Juliana'];
   public clientsMap = {
     '=0': 'no tenemos ningún cliente esperando.',
     '=1': 'tenemos un cliente esperando.',
@@ -36,9 +36,9 @@ export class UncommonPageComponent {
 
   // KeyValue Pipe
   public person = {
-    name: 'Fernando',
+    name: 'Cristian',
     age: 36,
-    address: 'Ottawa, Canada',
+    address: 'Cajica, Colombia',
   }
 
   // Async Pipe
